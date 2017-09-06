@@ -1,6 +1,10 @@
 version: 0.1
 
 phases:
+  pre_build:
+    commands:
+      - apt-get install -y mvn
+
   build:
     commands:
       - mvn install
