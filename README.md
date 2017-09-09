@@ -1,2 +1,2 @@
 # application-parent
-_Parent POM to all applications_
+_Parent to all Maven applications_
